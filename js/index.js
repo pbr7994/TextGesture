@@ -7,10 +7,10 @@ $(document).on("pagecreate","#pageone",function(){
  	});                       
 
 	$('#taptext').on("tap",function(){
-    	alert("Stop tapping!");
+    	$(this).css('color', 'red');
  	}); 
 
-	$('#swipetext').on("swipeleft",function(){
+	$('#swipetext').on("swiperight",function(){
     	$(this).css('color', 'green');
   	});   
 
